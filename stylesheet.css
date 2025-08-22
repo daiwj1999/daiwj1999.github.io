@@ -113,8 +113,8 @@ h2 {
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 900;
 }
 
 .name {
@@ -151,4 +151,12 @@ span.highlight {
 
 ::selection {
   background: #ffffd0; /* 背景颜色 */
+}
+
+/*https://jifengdai.org/*/
+blockquote {
+    border-left:.3em solid #1e90ff;/*border-left: .5em solid  #40AA53;*/
+    padding: 0 1em;
+    margin-left:0;
+    /*max-width: 476px;*/
 }
