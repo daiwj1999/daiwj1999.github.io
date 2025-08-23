@@ -155,7 +155,7 @@ span.highlight {
 
 /*https://jifengdai.org/*/
 blockquote {
-    border-left:.3em solid #1e90ff;/*border-left: .5em solid  #40AA53;*/
+    border-left:.25em solid #1e90ff;/*border-left: .5em solid  #40AA53;*/
     padding: 0 1em;
     margin-left:0;
     /*max-width: 476px;*/
