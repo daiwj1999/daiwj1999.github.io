@@ -169,7 +169,7 @@ blockquote {
 
 /* News box styling */
 .newsbox {
-    background: #F0F8FF; /*#f7f7f7*/
+    background: #fafafa; /*#f7f7f7*/
     border-left: 1em solid #4BA4F8;/*4px*/
     padding: 12px 16px;
     margin: 0.2em 0 0.8em 0;
