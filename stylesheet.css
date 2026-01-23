@@ -1,3 +1,5 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=IBM+Plex+Mono:wght@400;700&display=swap');*/
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -64,7 +66,7 @@
 }
 
 * {
-  color: #001932;/*#002345*/
+  color: #00050a;
 }
 
 a {
@@ -84,7 +86,6 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
-
 body,
 td,
 th,
@@ -99,14 +100,14 @@ b {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-style: italic;
   font-size: 14px;
-  color: #FF8080;/*#ff1493;*/
+  color: #FF8080;/*#ff1493;#F88379*/
 }
 
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
-  color: #001932;
+  color: #002345;
 }
 
 u {
@@ -125,7 +126,7 @@ h2 {
   font-weight: bold;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
-  color: #001932;
+  color: #004180;
   text-decoration: underline;
   text-decoration-color: #FF8080;
   text-decoration-thickness: 2px;
@@ -149,6 +150,7 @@ hr {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
 }
+
 
 .one {
   width: 160px;
@@ -177,7 +179,7 @@ span.highlight {
 
 
 ::selection {
-  background: #cce4ff; /* 背景颜色 */
+  background: #cce4ff; /* cce4ff */
     opacity: 0.99;
 }
 
@@ -187,14 +189,21 @@ blockquote {
     border-left:.2em solid #1e90ff;/*border-left: .5em solid  #40AA53;*/
     padding: 0 1em;
     margin-left:0;
-    /*max-width: 476px;*/
 }
+
+
+
 
 /* News box styling */
 .newsbox {
-    background: #fafafa; /*#f7f7f7*/
+    background: #fafafa; /*#f5f5f5 #f7f7f7 #F0F8FF*/
     border-left: 1em solid #004180;/*4px #4BA4F8*/
     padding: 12px 16px;
     margin: 0.2em 0 0.8em 0;
     border-radius: 10px;
 }
+/*
+code {
+    font-family: 'IBM Plex Mono', monospace;
+}
+*/
