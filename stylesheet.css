@@ -70,13 +70,16 @@ a {
 
 a:focus,
 a:hover {
-  /*color: #1e90ff;
+  /*color: #1e90ff#FF8080;
   background-color: #ffffd0;
   font-weight: bold;*/
-  color: #FF8080;
+  color: #004180;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #FF8080;
+  text-decoration-thickness: 2px;
 }
+
 
 body,
 td,
@@ -99,7 +102,13 @@ b {
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
-  /*color: #1e90ff;*/
+  color: #002345;
+}
+
+u {
+  text-decoration: underline;
+  text-decoration-color: #FF8080;
+  text-decoration-thickness: 2px;
 }
 
 h0 {
@@ -109,10 +118,20 @@ h0 {
 
 h2 {
   margin: 0;
-  font-weight: normal;
+  font-weight: bold;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
+  color: #002345;
+  text-decoration: underline;
+  text-decoration-color: #FF8080;
+  text-decoration-thickness: 2px;
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}/*code from Deepak Pathak https://www.cs.cmu.edu/~dpathak/ */
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -170,7 +189,7 @@ blockquote {
 /* News box styling */
 .newsbox {
     background: #fafafa; /*#f7f7f7*/
-    border-left: 1em solid #4BA4F8;/*4px*/
+    border-left: 1em solid #004180;/*4px #4BA4F8*/
     padding: 12px 16px;
     margin: 0.2em 0 0.8em 0;
     border-radius: 10px;
