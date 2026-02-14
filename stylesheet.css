@@ -72,6 +72,7 @@
 a {
   color: #1e90ff;
   text-decoration: none;
+  /*font-weight: bold;*/
 }
 
 a:focus,
@@ -79,7 +80,7 @@ a:hover {
   /*color: #1e90ff#FF8080;
   background-color: #ffffd0;
   font-weight: bold;*/
-  color: #004180;
+  color: #002345;
   font-weight: bold;
   text-decoration: underline;
   text-decoration-color: #FF8080;
@@ -126,7 +127,7 @@ h2 {
   font-weight: bold;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
-  color: #004180;
+  color: #002345;
   text-decoration: underline;
   text-decoration-color: #FF8080;
   text-decoration-thickness: 2px;
