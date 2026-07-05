@@ -80,10 +80,10 @@ a:hover {
   /*color: #1e90ff#FF8080;
   background-color: #ffffd0;
   font-weight: bold;*/
-  color: #002345;
+  color: #1e90ff;/*#002345;*/
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: #FF8080;
+  text-decoration-color: #a5d6fe;/*#a5d6fe;*/
   text-decoration-thickness: 2px;
 }
 
@@ -101,19 +101,19 @@ b {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-style: italic;
   font-size: 14px;
-  color: #FF8080;/*#ff1493;#F88379*/
+  color: #1e90ff;/*#ff1493;#F88379;#FF8080*/
 }
 
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
-  color: #002345;
+  color: #a5d6fe/*#002345;*/
 }
 
 u {
   text-decoration: underline;
-  text-decoration-color: #FF8080;
+  text-decoration-color: #ffe000;/*#ff8080;#a5d6fe;*/
   text-decoration-thickness: 2px;
 }
 
@@ -127,9 +127,9 @@ h2 {
   font-weight: bold;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
-  color: #002345;
+  color: #1e90ff;/*#002345;*/
   text-decoration: underline;
-  text-decoration-color: #FF8080;
+  text-decoration-color: #ffe000;/*#FF8080;*/
   text-decoration-thickness: 2px;
 }
 
@@ -187,7 +187,7 @@ span.highlight {
 
 /*https://jifengdai.org/*/
 blockquote {
-    border-left:.2em solid #1e90ff;/*border-left: .5em solid  #40AA53;*/
+    border-left:.4em solid #a5d6fe;/*border-left: .5em solid  #40AA53;*/
     padding: 0 1em;
     margin-left:0;
 }
@@ -213,11 +213,12 @@ code {
   /* 创建一个自定义的短横线列表样式 */
 ul.dashed-list {
   list-style-type: none; /* 去掉默认的圆点 */
+  text-indent: -20px; /* 首行缩进20像素 */
   /* padding-left: 20px;    保持适当的缩进 */
 }
 ul.dashed-list li::before {
-  content: "–  ";        /* 使用 en-dash (&#8211;) 并加上空格 */
-  /* margin-left: -20px;    将横线往左推，对齐边缘 */
+  content: "— ";        /* 使用 em-dash 并加上空格 */
+  margin-left: -20px;    /*将横线往左推，对齐边缘 */
   font-weight: bold;     /* 让横线稍微明显一点 */
-  color: #004180;           /* 横线的颜色可以稍灰一点 */
+  color: #1e90ff;           /* 横线的颜色可以稍灰一点 */
 }
