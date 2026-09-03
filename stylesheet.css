@@ -80,11 +80,13 @@ a:hover {
   /*color: #1e90ff#FF8080;
   background-color: #ffffd0;
   font-weight: bold;*/
-  color: #1e90ff;/*#002345;*/
+  color: #000000;/*#002345;*/
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: #a5d6fe;/*#a5d6fe;*/
+  text-decoration-color: #fecb2f;/*#a5d6fe;*/
   text-decoration-thickness: 2px;
+  background: #fff7de; /* cce4ff */
+  opacity: 0.85;
 }
 
 body,
@@ -127,9 +129,10 @@ h2 {
   font-weight: bold;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
-  color: #1e90ff;/*#002345;*/
+  color: #1e90ff;/*#000015;#002345;*/
+  /*background-color: #fff7de;*/
   text-decoration: underline;
-  text-decoration-color: #ffe000;/*#FF8080;*/
+  text-decoration-color: #fecb2f;/*#ffe000;#FF8080;*/
   text-decoration-thickness: 2px;
 }
 
@@ -175,7 +178,7 @@ hr {
 }
 
 span.highlight {
-  background-color: #fff8dd;/* #ffffd0 */
+  background-color: #fff7de;/* #ffffd0#fff8dd */
 }
 
 
@@ -220,5 +223,5 @@ ul.dashed-list li::before {
   content: "— ";        /* 使用 em-dash 并加上空格 */
   margin-left: -20px;    /*将横线往左推，对齐边缘 */
   font-weight: bold;     /* 让横线稍微明显一点 */
-  color: #1e90ff;           /* 横线的颜色可以稍灰一点 */
+  color: #fecb2f;           /* 横线的颜色可以稍灰一点 */
 }
