@@ -227,3 +227,9 @@ ul.dashed-list li::before {
   font-weight: bold;     /* 让横线稍微明显一点 */
   color: #fecb2f;           /* 横线的颜色可以稍灰一点 */
 }
+
+html {
+  -webkit-text-size-adjust: 100% !important;
+  -moz-text-size-adjust: 100% !important;
+  text-size-adjust: 100% !important;
+}
